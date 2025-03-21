@@ -1,25 +1,20 @@
 import Header from "./components/globals/Header";
 
-import './App.css'
+import "./App.css";
+import Hero from "./components/features/Hero";
 
 function App() {
-
   return (
-    <div className="container">
-     <Header />
-
-     <main>
-        <section className='hero'>
-
-        </section>
-      <section className='feature-list'></section>
-      <section className='cta-floating-section'></section>
-     </main>
-     <footer>
-
-     </footer>
-    </div>
-  )
+    <>
+      <Header />
+      <main>
+        <Hero />
+        <section className="feature-list"></section>
+        <section className="cta-floating-section"></section>
+      </main>
+      <footer></footer>
+    </>
+  );
 }
 
-export default App
+export default App;

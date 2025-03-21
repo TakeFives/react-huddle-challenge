@@ -1,5 +1,7 @@
 .header {
-    padding: 3rem;
+    padding-block: 3rem;
+    position: fixed;
+    width: 100%;
 }
 
 .nav{

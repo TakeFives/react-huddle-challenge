@@ -1,0 +1,6 @@
+.hero{
+    background-image: url('../../assets/images/bg-hero-desktop.svg');
+    background-color: var(--clr-bg-light);
+    min-height: 700px;
+    padding-block-start: 10rem;
+}
