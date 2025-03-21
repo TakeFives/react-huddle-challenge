@@ -11,7 +11,7 @@
     --fs-heading: clamp(2.5rem, 5vw + 1.5rem, 4.5rem); /* h1 */
     --fs-sub-heading: clamp(2.5rem, 5vw + 1.5rem, 4.5rem); /* h2 */
     --fs-paragraph: clamp(1rem, 1.2vw + 1rem, 1.125rem); /* p */
-    --fs-link: clamp(1.25rem, 1.2vw + 1rem, 1.125rem); /* a */
+    --fs-link: clamp(0.9rem, 1.2vw + 1rem, 0.9rem); /* a */
   }
   
   h1 {
@@ -27,5 +27,5 @@
   }
   
   button {
-    font: var(--fw-regular) var(--fs-link) / 1.5 var(--ff);
+    font: var(--fw-semi-bold) var(--fs-link) / 1.0 var(--ff);
   }
