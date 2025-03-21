@@ -1,0 +1,22 @@
+:root {
+    /* BACKGROUND */
+    --clr-bg-main: hsl(0, 0%, 100%);
+    --clr-bg-light: hsl(191, 89%, 96%);
+    --clr-bg-dark: hsl(192, 100%, 9%);
+    --clr-bg-gradient: linear-gradient(
+      to right,
+      hsl(29, 97%, 73%)
+      hsl(322, 100%, 66%)
+    );
+  
+    /* TEXT */
+    --clr-text-light: hsla(0, 0%, 100%, 1);
+    --clr-text-dark: hsl(192, 100%, 9%);
+    --clr-text-grey:  hsl(208, 11%, 55%);
+  
+    /* BUTTON */
+    --clr-btn-bg-primary:  hsl(322, 100%, 66%);
+    --clr-bg-btn-hover: hsl(0, 0%, 100%);
+  
+  }
+  
