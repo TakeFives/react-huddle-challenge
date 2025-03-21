@@ -9,9 +9,9 @@ function App() {
      <Header />
 
      <main>
-      <section className='hero'>
+        <section className='hero'>
 
-      </section>
+        </section>
       <section className='feature-list'></section>
       <section className='cta-floating-section'></section>
      </main>

@@ -37,9 +37,9 @@ body {
   padding: 0;
 }
 
-ul:where([role="list"]),
-ol:where([role="list"]) {
-  list-style: none;
+ul,
+ol{
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
