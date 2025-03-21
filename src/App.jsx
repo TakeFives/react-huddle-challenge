@@ -1,5 +1,3 @@
-import logo from "/src/assets/images/logo.svg";
-
 import Header from "./components/globals/Header";
 
 import './App.css'
@@ -7,7 +5,7 @@ import './App.css'
 function App() {
 
   return (
-    <>
+    <div className="container">
      <Header />
 
      <main>
@@ -20,7 +18,7 @@ function App() {
      <footer>
 
      </footer>
-    </>
+    </div>
   )
 }
 
