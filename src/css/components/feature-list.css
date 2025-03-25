@@ -1,0 +1,19 @@
+.feature-list{
+    padding-block: 5rem;
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+}
+
+.feature:nth-of-type(even) .feature__container{
+    flex-direction: row-reverse;
+}
+
+.feature__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px var(--clr-bg-btn-shadow);
+    border-radius: 2rem;
+    padding: 3rem;
+}
