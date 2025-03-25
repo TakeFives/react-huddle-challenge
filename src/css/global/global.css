@@ -9,5 +9,19 @@
 button {
     border: none;
     border-radius: 100px;
+    padding: 1rem 4rem;
+    box-shadow: 0 0 0.45rem var(--clr-bg-btn-shadow);
+}
+.btn {
     background-color: var(--clr-bg-main);
+
+}
+
+.btn-primary {
+    background: var(--clr-btn-bg-primary);
+    color: var(--clr-bg-main);
+}
+
+p {
+    color: var(--clr-text-grey);
 }

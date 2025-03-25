@@ -9,7 +9,7 @@ function Header() {
         <img src={logo} alt="Company Logo" width="200" height="30" className="logo" />
         <ul>
           <li>
-            <button className="cta-btn">Try it Free</button>
+            <button className="btn">Try it Free</button>
           </li>
         </ul>
       </nav>

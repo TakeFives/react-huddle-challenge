@@ -4,3 +4,23 @@
     min-height: 700px;
     padding-block-start: 10rem;
 }
+
+.hero__container{
+    display: flex;
+}
+
+.hero__info,
+.hero__image {
+    flex: 1;
+}
+
+.hero__info{
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero__cta{
+    align-self: flex-start;
+    padding: 1.4rem 4rem;
+}

@@ -9,7 +9,7 @@
   
     /* Font sizes */
     --fs-heading: clamp(2.5rem, 5vw + 1.5rem, 4.5rem); /* h1 */
-    --fs-sub-heading: clamp(2.5rem, 5vw + 1.5rem, 4.5rem); /* h2 */
+    --fs-sub-heading: clamp(1.25rem, 5vw + 1rem, 2rem); /* h2 */
     --fs-paragraph: clamp(1rem, 1.2vw + 1rem, 1.125rem); /* p */
     --fs-link: clamp(0.9rem, 1.2vw + 1rem, 0.9rem); /* a */
   }

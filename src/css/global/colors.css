@@ -17,6 +17,6 @@
     /* BUTTON */
     --clr-btn-bg-primary:  hsl(322, 100%, 66%);
     --clr-bg-btn-hover: hsl(0, 0%, 100%);
-  
+    --clr-bg-btn-shadow: hsla(0, 0%, 0%, 0.075);
   }
   
